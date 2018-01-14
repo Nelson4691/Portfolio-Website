@@ -1,0 +1,78 @@
+.portfolio{
+  background-color: #fff;;
+}
+.post-section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  
+}
+
+.post-links-layout{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  
+}
+
+/*Post layout design***********/
+
+.post{
+  margin-bottom: 3em;
+  cursor:pointer;
+  position: relative;
+  flex: 0 1 calc(50% - 2.5em); 
+  
+}
+
+.post img{
+  display: block;
+  width: 100%;
+}
+
+.post-hover-content{
+  width: 0px;
+  height: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.7s ease;
+  
+}
+
+/*add class to post color you want*/
+
+.content-one-color{
+  background: rgba(27,46,66,0.8);
+}
+
+.content-two-color{
+  background: rgba(255, 92, 64,0.8);
+}
+
+.content-three-color{
+  background: rgba(102,178,255,0.8);
+}
+
+.content-four-color{
+  background: rgba(1, 255, 112,0.8);
+}
+
+
+
+
+.post:hover .post-hover-content{
+  width: 100%;
+  
+}
+
+.post-hover-content h2{
+  color: white;
+  font-size: 30px;
+  border: 6px solid white;
+  padding: 10px 30px;
+}

@@ -1,0 +1,58 @@
+/*
+  Fonts:
+  font-family: 'Crete Round', serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  Colors: 
+  #eee
+  #d8a875;
+  rgba(253, 205, 165, 1);
+   background: #ff5c40;
+  
+*/
+/*Global stuff*/
+
+
+html{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: #eee;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+ 
+  
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.content-layout-small{
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content-layout-med{
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.content-layout-large{
+  max-width: 1250px;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+.content-layout-full{
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
